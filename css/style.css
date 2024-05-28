@@ -1,0 +1,130 @@
+div{
+    width: 385px;
+    height: 85px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 11px;
+    height: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #ffffff, #c0bfe8);
+    box-shadow: 5px 5px 15px #aaaaaa, -5px -5px 15px #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.frm-row label{
+    margin-bottom: 3px;
+    display: block;
+    padding: 7px;
+}
+
+.frm-row input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 25px;
+    font-size: 1.2rem;
+
+}
+
+.btn {
+    background-color: #958f8f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 105%;
+    left: 61%;  
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    
+}
+
+.btn:hover {
+    background-color: #373535;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+li {
+    margin-bottom: 11px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+thead {
+    background-color: #c0bfe8;
+}
+
+.btn2 {
+    background-color: #958f8f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px 30px;
+    transform: translate(530%, 80%);
+}
+
+.btn2:hover {
+    background-color: #373535;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn2:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 100%;
+}

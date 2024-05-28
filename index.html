@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Consulta CEP</h1>
+    
+    <div class="container">
+
+        <form id="cep-form" class="">
+            <div class="frm-row">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep" placeholder="Ex: 10101000" maxlength="8">
+            </div>
+    
+            <div class="frm-row">
+                <label for="rua">Logradouro</label>
+                <input type="text" name="rua" id="rua">
+            </div>
+
+            <div class="frm-row">
+                <label for="numero">Número</label>
+                <input type="number" name="numero" id="numero" placeholder="Informe o número da sua casa">
+            </div>
+        
+            <div class="frm-row">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+            </div>
+        
+            <div class="frm-row">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+        
+            <div class="frm-row">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado">
+            </div>
+
+            <div class="frm-row">
+                <label for="ibge">IBGE</label>
+                <input type="text" name="ibge" id="ibge">
+            </div>
+
+        </form>
+
+    </div>
+   
+    <div class="btn-container">
+        <button id="add-data" class="btn">Adicionar dados</button>
+    </div>
+
+<table>
+    <thead>
+        <tr>
+            <th>CEP</th>
+            <th>LOGRADOURO</th>
+            <th>NUMERO</th>
+            <th>BAIRRO</th>
+            <th>CIDADE</th>
+            <th>ESTADO</th>
+            <th>IBGE</th>
+            <th>DELETAR</th>
+        </tr>
+    </thead>
+    <tbody id="tabela">
+    </tbody>
+</table>
+
+<div>
+    <button id="add-data1" class="btn2">Salvar dados ao local storage</button>
+</div>
+    
+    <script src="js/consulta-endereco.js"></script>
+</body>
+</html>
+
+
